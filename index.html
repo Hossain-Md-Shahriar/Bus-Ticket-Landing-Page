@@ -31,7 +31,7 @@
     <header class="max-w-[1210px] m-auto">
 
         <!-- navbar -->
-        <nav class="mx-5 h-28 flex justify-between items-center font-raleway">
+        <nav class="mx-5 h-24 lg:h-28 flex justify-between items-center font-raleway">
             <!-- logo-1 -->
             <h1 class="text-[#030712] text-3xl lg:text-4xl font-extrabold">P-Ticket</h1>
 
@@ -59,7 +59,7 @@
             <h1 class="text-white max-w-[742px] font-raleway px-2 lg:px-0 text-3xl lg:text-[64px]/[86px] font-extrabold text-center mb-4">End-to-End Travel with <span class="text-[#1DD100]">P Paribahan</span></h1>
 
             <!-- banner description -->
-            <p class="text-white max-w-[691px] font-inter px-2 lg:px-0 font-normal text-lg/7 text-center mb-8">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            <p class="text-white max-w-[691px] font-inter px-2 lg:px-0 font-normal text-lg/7 text-center mb-8">Efficiently book bus tickets online. Choose routes, select seats, and pay securely. Streamlined interface for hassle-free travel planning.</p>
 
             <!-- banner button -->
             <button onclick="scrollToParibahan()" class="text-[#030712] font-raleway text-xl font-bold bg-[#1DD100] rounded-xl px-7 py-5 mb-0 lg:mb-14">Buy Tickets</button>
@@ -110,7 +110,7 @@
     </header>
 
     <!-- main -->
-    <main class="">
+    <main>
 
         <!-- Best Offer section -->
         <section class="max-w-[1210px] m-auto">
@@ -125,7 +125,7 @@
 
                     <!-- coupon-1 -->
                     <div class="bg-[#FFBF0F] h-[220px] rounded-3xl flex justify-center items-center gap-6">
-                        <div class="font-inter ml-2 mr-2 lg:mr-4">
+                        <div class="font-inter ml-4 mr-2 lg:mr-4">
                             <p class="text-[#030712cc] text-2xl lg:text-[40px]/[36px] font-black">15% OFF</p>
                             <p class="text-[#030712cc] lg:text-xl/9 font-semibold">on your next purchase</p>
                             <p class="text-[#0307127f] lg:text-lg/9 font-medium">use by January 2024</p>
@@ -137,15 +137,15 @@
                         </div>
 
                         <!-- coupon code -->
-                        <div class="font-raleway text-center mr-2">
-                            <p class="text-[#030712] text-[32px]/[57.6px] font-bold">NEW15</p>
+                        <div class="font-raleway text-center mr-4">
+                            <p class="text-[#030712] text-2xl lg:text-[32px]/[57.6px] font-bold">NEW15</p>
                             <p class="text-[#03071266] text-xl font-medium">Coupon Code</p>
                         </div>
                     </div>
 
                     <!-- coupon-2 -->
                     <div class="bg-[#F78C9C] h-[220px] rounded-3xl flex justify-center items-center gap-6">
-                        <div class="font-inter ml-2 mr-2 lg:mr-4">
+                        <div class="font-inter ml-4 mr-2 lg:mr-4">
                             <p class="text-[#030712cc] text-2xl lg:text-[40px]/[36px] font-black">20% OFF</p>
                             <p class="text-[#030712cc] lg:text-xl/9 font-semibold">on your next purchase</p>
                             <p class="text-[#0307127f] lg:text-lg/9 font-medium">use by January 2024</p>
@@ -157,8 +157,8 @@
                         </div>
 
                         <!-- coupon code -->
-                        <div class="font-raleway text-center mr-2">
-                            <p class="text-[#030712] text-[32px]/[57.6px] font-bold">Couple 20</p>
+                        <div class="font-raleway text-center mr-4">
+                            <p class="text-[#030712] text-2xl lg:text-[32px]/[57.6px] font-bold">Couple 20</p>
                             <p class="text-[#03071266] text-xl font-medium">Coupon Code</p>
                         </div>
                     </div>
@@ -172,14 +172,14 @@
         </section>
 
         <!-- Paribahan section -->
-        <section id="paribahan" class="bg-[#F7F8F8] border-t-2 border-[#1DD100] rounded-tr-[88px] rounded-tl-[88px]">
+        <section id="paribahan" class="bg-[#F7F8F8] border-t-2 border-[#1DD100] rounded-tr-[50px] rounded-tl-[50px] lg:rounded-tr-[88px] lg:rounded-tl-[88px]">
             
             <!-- title -->
             <h1 class="text-[#030712] text-center font-raleway text-[40px] font-bold pt-[120px] mb-6">P.H Paribahan</h1>
 
             <!-- description -->
             <div class="flex justify-center pb-12">
-                <p class="text-[#03071299] text-center font-inter px-5 lg:px-0 lg:text-lg/8 font-normal max-w-[736px]">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                <p class="text-[#03071299] text-center font-inter px-5 lg:px-0 lg:text-lg/8 font-normal max-w-[736px]">Efficiently book bus tickets online. Choose routes, select seats, and pay securely. Streamlined interface for hassle-free travel planning.</p>
             </div>
 
 
@@ -486,6 +486,39 @@
             </section>
         </section>
     </main>
+
+    <footer class="bg-[#030712]">
+        <div class="max-w-[1210px] m-auto">
+            <div class="mx-5 py-[120px]">
+                <!-- p-ticket & google -->
+                <div class="flex justify-between items-center flex-col lg:flex-row pb-12 border-b border-[#ffffff4c] border-dashed">
+                    <!-- p-ticket -->
+                    <div class="pb-4 lg:pb-0">
+                        <h1 class="text-white font-raleway text-3xl lg:text-4xl font-extrabold pb-4 text-center lg:text-left">P-Ticket</h1>
+                        <p class="text-[#ffffffcc] font-inter text-lg font-normal text-center lg:text-left lg:w-[374px]">P-Ticket is a digital platform to make your daily commuting better.</p>
+                    </div>
+
+                    <!-- google -->
+                    <div>
+                        <p class="text-white font-raleway text-xl font-semibold pb-5">Download our app</p>
+                        <div>
+                            <img src="images/google.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- all rights reserved -->
+                <div class="flex justify-between items-center flex-col-reverse lg:flex-row pt-8">
+                    <p class="text-[#ffffffb2] font-inter text-base font-normal pt-6 lg:pt-0 text-center lg:text-right">@all rights reserved, P-Ticket services limited.2024</p>
+                    <div class="flex gap-8">
+                        <p class="text-white font-inter text-base font-medium">Terms & condition</p>
+                        <p class="text-white font-inter text-base font-medium">Return & refund policy</p>
+                        <p class="text-white font-inter text-base font-medium">Privacy policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>

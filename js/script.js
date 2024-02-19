@@ -4,8 +4,7 @@ function scrollToParibahan() {
     paribahan.scrollIntoView({ behavior: 'smooth' });
 }
 
-/* ============= Utility Functions ============= */
-
+/* ============= Utility Function ============= */
 
 // check for duplicate
 function isDupli(value) {
@@ -23,11 +22,11 @@ function isDupli(value) {
     }
 }
 
-/* ============= Utility Functions ============= */
 
 
+/* ============= MAIN CODE ============= */
 
-const leftColumn = document.querySelectorAll('#seat-column p');
+const seatColumn = document.querySelectorAll('#seat-column p');
 const seatAmount = document.getElementById('seat-amount');
 const seatLeft = document.getElementById('seat-left');
 const appendContainer = document.getElementById('append-container');
@@ -42,7 +41,7 @@ const nextButton = document.getElementById('next-button');
 let seatCounter = 0;
 let leftSeat = 40;
 
-for (const seat of leftColumn) {
+for (const seat of seatColumn) {
     seat.addEventListener('click', function (e) {
 
         //check if the element was clicked before or not
@@ -84,7 +83,7 @@ for (const seat of leftColumn) {
                 nextButton.removeAttribute('disabled');
             }
             else {
-                alert('You have reached seat limit');
+                alert('You have reached seat limit!');
             }
         }
     })
